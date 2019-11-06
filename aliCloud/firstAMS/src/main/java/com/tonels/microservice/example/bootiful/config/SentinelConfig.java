@@ -1,8 +1,8 @@
 package com.tonels.microservice.example.bootiful.config;
 
-import com.tonels.microservice.alibaba.csp.sentinel.slots.block.RuleConstant;
-import com.tonels.microservice.alibaba.csp.sentinel.slots.block.flow.FlowRule;
-import com.tonels.microservice.alibaba.csp.sentinel.slots.block.flow.FlowRuleManager;
+import com.alibaba.csp.sentinel.slots.block.RuleConstant;
+import com.alibaba.csp.sentinel.slots.block.flow.FlowRule;
+import com.alibaba.csp.sentinel.slots.block.flow.FlowRuleManager;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.event.EventListener;
