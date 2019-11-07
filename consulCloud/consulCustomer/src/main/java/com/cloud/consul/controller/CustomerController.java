@@ -14,7 +14,7 @@ import org.springframework.web.client.RestTemplate;
 import javax.annotation.Resource;
 
 @RestController
-public class DcController {
+public class CustomerController {
 
     @Value("${country}")
     private String country;
