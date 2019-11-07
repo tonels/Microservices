@@ -7,6 +7,7 @@
 ## eurekaCloud
 基于eureka springcloud,hytrix,ribbon等技术
 
-
+## consulCloud
+基于consul-discovery作为服务注册发现，consul-discovery作为分布式配置管理（YML格式），下次抽时间整理出Json格式
 
 
