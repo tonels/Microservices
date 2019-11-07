@@ -1,0 +1,4 @@
+com\cloud\consumer_feign_hystrix\Application.class
+com\cloud\consumer_feign_hystrix\FeiClient.class
+com\cloud\consumer_feign_hystrix\FeignClientFallback.class
+com\cloud\consumer_feign_hystrix\HytrixController.class
