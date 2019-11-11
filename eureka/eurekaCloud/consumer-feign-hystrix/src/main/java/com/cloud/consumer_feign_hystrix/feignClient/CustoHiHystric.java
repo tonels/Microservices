@@ -2,7 +2,7 @@ package com.cloud.consumer_feign_hystrix.feignClient;
 
 import org.springframework.stereotype.Component;
 
-//@Component
+@Component
 public class CustoHiHystric implements FeiClient {
 
     @Override

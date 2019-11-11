@@ -29,7 +29,6 @@ public class HytrixController {
         return execute.toJSONString();
     }
 
-
     // feignHystrix 方式拦截断路
     @GetMapping("/feignHystrix")
     public String feignHystrix() {
