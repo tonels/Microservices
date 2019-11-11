@@ -17,6 +17,7 @@
         <module>studentService</module>
         <module>schoolService</module>
         <module>FeignSchoolService</module>
+        <module>helloWorld</module>
     </modules>
 
 
