@@ -16,6 +16,7 @@
         <module>mainHystrix</module>
         <module>studentService</module>
         <module>schoolService</module>
+        <module>FeignSchoolService</module>
     </modules>
 
 

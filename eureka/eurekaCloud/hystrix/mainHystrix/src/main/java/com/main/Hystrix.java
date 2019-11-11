@@ -17,14 +17,16 @@ public class Hystrix {
     }
 
     @RequestMapping(value = "/")
-    @HystrixCommand(fallbackMethod = "fallback_hello", commandProperties = {
-            @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "1000")
-    })
+    @HystrixCommand(fallbackMethod = "fallback_hello",
+            commandProperties = {
+                @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "1000")
+            }
+    )
     public String hello() throws InterruptedException {
-        Thread.sleep(100);
+        Thread.sleep(2000);
         return "Welcome Hystrix";
     }
     private String fallback_hello() {
-        return "Request fails. It takes long time to response";
+        return "请求失败，响应超时...";
     }
 }

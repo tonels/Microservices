@@ -2,11 +2,13 @@ package com.hy;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
-public class SpringHystrixStudentServiceApplication {
+@EnableDiscoveryClient
+public class HystrixStudentStart {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringHystrixStudentServiceApplication.class, args);
+		SpringApplication.run(HystrixStudentStart.class, args);
 	}
 }
