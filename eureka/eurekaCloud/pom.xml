@@ -23,6 +23,7 @@
         <module>springbootWeb</module>
         <module>consumer-ribbon</module>
         <module>hystrix</module>
+        <module>eurekaConfig</module>
     </modules>
 
 
